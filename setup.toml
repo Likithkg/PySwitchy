@@ -1,0 +1,26 @@
+from setuptools import setup, find_packages
+import codecs
+import os
+
+VERSION = '0.0.1'
+DISCRIPTION = 'Smiple switch function'
+LONG_DISCRIPTION = 'A simple switch function present in c, c++, java and so on, for python'
+
+# setting up
+setup(
+    name = "PySwitchy",
+    version = VERSION,
+    author="ArT3mUs",
+    author_email="likithbopanna222@gmail.com",
+    description=DISCRIPTION,
+    long_description=LONG_DISCRIPTION,
+    keywords=['switch', 'function', 'python'],
+    classifiers={
+        "Development Status :: 1 - Planning",
+        "Intended Audience :: Developers",
+        "Programming Language :: Python :: 3",
+        "Operating System :: Unix",
+        "Operating System :: MacOS :: MacOS X",
+        "Operating System :: Microsoft :: Windows",
+    }
+)
